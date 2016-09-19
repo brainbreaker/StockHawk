@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stock_quotes_widget_toolbar">Clicking on the toolbar will open the app</string>
+    <string name="widget_stock_list">This list displays the stocks in the widget</string>
+</resources>

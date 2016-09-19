@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/stock_quotes"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@color/colorPrimary"
+        android:textSize="25dp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+
+    <ListView
+        android:id="@+id/widget_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"/>
+
+</LinearLayout>

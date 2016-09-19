@@ -8,6 +8,7 @@ import android.content.Loader;
 import android.database.Cursor;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.ActionBar;
 import android.os.Bundle;
@@ -49,7 +50,7 @@ public class MyStocksActivity extends AppCompatActivity implements LoaderManager
   private ItemTouchHelper mItemTouchHelper;
   private static final int CURSOR_LOADER_ID = 0;
   private QuoteCursorAdapter mCursorAdapter;
-  private Context mContext;
+  public static Context mContext;
   private Cursor mCursor;
   boolean isConnected;
 
@@ -222,5 +223,4 @@ public class MyStocksActivity extends AppCompatActivity implements LoaderManager
   public void onLoaderReset(Loader<Cursor> loader){
     mCursorAdapter.swapCursor(null);
   }
-
 }

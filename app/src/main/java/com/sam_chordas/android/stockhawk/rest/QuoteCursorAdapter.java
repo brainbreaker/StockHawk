@@ -24,7 +24,7 @@ import com.sam_chordas.android.stockhawk.touch_helper.ItemTouchHelperViewHolder;
  * for the code structure
  */
 public class QuoteCursorAdapter extends CursorRecyclerViewAdapter<QuoteCursorAdapter.ViewHolder>
-    implements ItemTouchHelperAdapter{
+        implements ItemTouchHelperAdapter{
 
   private static Context mContext;
   private static Typeface robotoLight;
@@ -38,7 +38,7 @@ public class QuoteCursorAdapter extends CursorRecyclerViewAdapter<QuoteCursorAda
   public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType){
     robotoLight = Typeface.createFromAsset(mContext.getAssets(), "fonts/Roboto-Light.ttf");
     View itemView = LayoutInflater.from(parent.getContext())
-        .inflate(R.layout.list_item_quote, parent, false);
+            .inflate(R.layout.list_item_quote, parent, false);
     ViewHolder vh = new ViewHolder(itemView);
     return vh;
   }
@@ -51,18 +51,18 @@ public class QuoteCursorAdapter extends CursorRecyclerViewAdapter<QuoteCursorAda
     if (cursor.getInt(cursor.getColumnIndex("is_up")) == 1){
       if (sdk < Build.VERSION_CODES.JELLY_BEAN){
         viewHolder.change.setBackgroundDrawable(
-            mContext.getResources().getDrawable(R.drawable.percent_change_pill_green));
+                mContext.getResources().getDrawable(R.drawable.percent_change_pill_green));
       }else {
         viewHolder.change.setBackground(
-            mContext.getResources().getDrawable(R.drawable.percent_change_pill_green));
+                mContext.getResources().getDrawable(R.drawable.percent_change_pill_green));
       }
     } else{
       if (sdk < Build.VERSION_CODES.JELLY_BEAN) {
         viewHolder.change.setBackgroundDrawable(
-            mContext.getResources().getDrawable(R.drawable.percent_change_pill_red));
+                mContext.getResources().getDrawable(R.drawable.percent_change_pill_red));
       } else{
         viewHolder.change.setBackground(
-            mContext.getResources().getDrawable(R.drawable.percent_change_pill_red));
+                mContext.getResources().getDrawable(R.drawable.percent_change_pill_red));
       }
     }
     if (Utils.showPercent){
@@ -85,7 +85,7 @@ public class QuoteCursorAdapter extends CursorRecyclerViewAdapter<QuoteCursorAda
   }
 
   public static class ViewHolder extends RecyclerView.ViewHolder
-      implements ItemTouchHelperViewHolder, View.OnClickListener{
+          implements ItemTouchHelperViewHolder, View.OnClickListener{
     public final TextView symbol;
     public final TextView bidPrice;
     public final TextView change;

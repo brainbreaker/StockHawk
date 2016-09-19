@@ -40,6 +40,19 @@
             android:authorities="com.sam_chordas.android.stockhawk.data.QuoteProvider"
             android:name="com.sam_chordas.android.stockhawk.data.generated.QuoteProvider"
             android:exported="false"/>
+
+        <receiver android:name=".widget.StockWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/stock_widget_info" />
+        </receiver>
+        <service
+            android:name=".service.StockWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
     </application>
 
 </manifest>
