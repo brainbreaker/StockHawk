@@ -10,6 +10,12 @@
     <string name="input_hint">FB</string>
     <string name="input_prefill"></string>
     <string name="network_toast">اه اوه! هذا التطبيق يتطلب اتصال بالإنترنت</string>
-    <string name="stock_quotes_widget_toolbar">Clicking on the toolbar will open the app</string>
-    <string name="widget_stock_list">This list displays the stocks in the widget</string>
+
+    <string name="stock_quotes_widget_toolbar">النقر على شريط الأدوات فتح التطبيق</string>
+    <string name="widget_stock_list">تعرض هذه القائمة على الأسهم في القطعة</string>
+    <string name="symbol_not_found">الأسهم رمز لم يتم العثور</string>
+    <string name="stock_already_saved">يتم حفظ هذه الأسهم بالفعل!</string>
+    <string name="add_stock">انقر على زر لإضافة أسهم جديدة</string>
+    <string name="stock_quotes_list">هذه لائحة أسعار الأسهم ، انقر على عنصر لعرض تفاصيلها</string>
+    <string name="stock_graph">هذا هو الرسم البياني لل الإضافي الأسهم المختارة</string>
 </resources>

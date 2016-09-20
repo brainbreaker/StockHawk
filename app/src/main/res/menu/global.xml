@@ -1,7 +1,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-  <item android:id="@+id/action_settings"
+  <item android:id="@+id/action_github"
+      android:icon="@drawable/github"
       android:title="@string/action_settings"
-      android:orderInCategory="100"
+      android:orderInCategory="99"
       app:showAsAction="never" />
 </menu>
