@@ -29,5 +29,6 @@
   <string name="add_stock">Click on the button to add a new Stock</string>
   <string name="stock_quotes_list">This is the list of your Stock Quotes, click on an item to view its details</string>
   <string name="stock_graph">This is the graph for the selected stock overtime</string>
+  <string name="already_saved">Already Saved</string>
 
 </resources>

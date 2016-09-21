@@ -18,4 +18,5 @@
     <string name="add_stock">انقر على زر لإضافة أسهم جديدة</string>
     <string name="stock_quotes_list">هذه لائحة أسعار الأسهم ، انقر على عنصر لعرض تفاصيلها</string>
     <string name="stock_graph">هذا هو الرسم البياني لل الإضافي الأسهم المختارة</string>
+    <string name="already_saved">المحفوظة بالفعل</string>
 </resources>
