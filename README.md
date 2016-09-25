@@ -15,8 +15,8 @@ The project was uplifted from functional to production state.
 - Support for Arabic language
 
 ##Screenshots
-![Home](http://s15.postimg.org/ghvj1eeef/14438748_1124850370925055_431581294_o.jpg)
-![Detail](http://s15.postimg.org/5jk9j7pt3/14489666_1124850320925060_1556204098_o.jpg)
+![Home](http://s15.postimg.org/ykolsma97/14438748_1124850370925055_431581294_o.jpg)
+![Detail](http://s15.postimg.org/u02fdoqjv/14489666_1124850320925060_1556204098_o.jpg)
 
 ## Contribution
 
